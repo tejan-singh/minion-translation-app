@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f2c94c;
+  --primary-font: sans-serif;
+}
+
+.header {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 2rem;
+  font-family: var(--primary-font);
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.translation-section {
+  max-width: 600px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#inputTextBox {
+  display: block;
+  width: 100%;
+  height: 7rem;
+}
+
+#outputTextBox {
+  display: block;
+  width: 100%;
+  height: 5.2rem;
+}
+
+#translate-btn {
+  background-color: var(--primary-color);
+  border: none;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: large;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  font-family: var(--primary-font);
+}
+
+.footer h2 {
+  margin: 0;
+}
+
+.about {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+}

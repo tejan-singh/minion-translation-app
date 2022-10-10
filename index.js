@@ -15,9 +15,11 @@ const translate = () => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
       //output
       outputTextBox.value = data.contents.translated;
+    })
+    .catch((error) => {
+      outputTextBox.value = error;
     });
 };
 
